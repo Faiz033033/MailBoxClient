@@ -1,7 +1,10 @@
+import "./App.css";
+import SignUp from "./components/Pages/SignUp";
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
+    <div className="App">
+      <SignUp />
     </div>
   );
 }
